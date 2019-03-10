@@ -21,6 +21,7 @@ export default {
   name: 'app',
   components: {
     'app-header': AppHeader,
+    'book-stock-data': BookStockData,
     'input-balance-data': InputBalanceData,
   },
 };
