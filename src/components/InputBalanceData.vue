@@ -15,7 +15,7 @@
           <td><div class="sales-number"></div>{{ calcBookSales }}</td>
           <td><input type="text" class="cost-item-name" v-model="costItemName"></td>
           <td><input type="number" class="cost-number" v-model="cost"></td>
-          <td><div class="benefit-number"></div>{{ calcBenefit }}</td>
+          <td><div class="benefit-number"></div>{{ calcBenefit() }}</td>
         </tr>
     </table>
   </div>
